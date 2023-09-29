@@ -1,0 +1,222 @@
+/* General styling for the whole homepage */
+.homepage {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  /* Styling for the columns container */
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows the columns to wrap into the next row if screen size is small */
+    margin: 20px;
+  }
+  
+  /* Individual column styling */
+  .column {
+    flex: 1;  /* Each column takes up equal space */
+    min-width: 300px; /* Minimum width before it wraps */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header inside each column */
+  .column h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* List styles */
+  .column ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .column ul li {
+    margin-bottom: 12px;
+  }
+  
+  /* About Me section */
+  .about-me p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    color: #1e90ff;
+    background-color: white;
+    border-color: #2196F3;
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: all 0.2s ease; 
+  }
+
+  .btn:hover {
+    background-color: #1e90ff;
+    color: white;
+
+    animation: bounce 2s infinite;
+
+    /* animation: bounce 0.6s; */
+  }
+
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  .btn.success {
+    background-color: #4CAF50;
+  }
+  
+  .btn.info {
+    background-color: #2196F3;
+  }
+  
+  .btn.warning {
+    background-color: #ff9800;
+  }
+  
+  .btn.danger {
+    background-color: #f44336;
+  }
+  
+  .btn.default {
+    background-color: #e7e7e7;
+    color: black;
+  }
+  
+  /* Skills Section */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adds gap between buttons */
+  }
+
+  .about-me {
+    font-family: Arial, sans-serif; /* Using a simple and clean font */
+    background-color: #f4f4f4; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding to ensure text doesn't touch the edges */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Slight shadow to lift the card */
+    line-height: 1.6; /* Improved readability */
+    color: #333; /* Dark gray text color */
+  }
+  
+  /* If you have any headings in the 'About Me' section */
+  .about-me h2, 
+  .about-me h3, 
+  .about-me h4 {
+    margin-top: 16px;
+    margin-bottom: 12px;
+  }
+  
+  /* If you want to include bullet points or lists */
+  .about-me ul {
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+  
+  /* If you include links */
+  .about-me a {
+    color: #007bff; /* Bootstrap primary blue */
+    text-decoration: none;
+  }
+  
+  .about-me a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+
+
+
+/* .columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .homepage {
+
+  }
+  
+  .columns {
+    display: flex;
+
+  }
+  
+  .column {
+
+  }
+  
+  .about-me p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  } */
+
+
+
+
+  
+
+
+
+
+
+  /* .homep {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .column h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .column ul {
+    list-style-position: inside;
+  } */
+  
+  

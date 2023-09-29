@@ -1,0 +1,20 @@
+.column {
+    flex: 1;
+  }
+  
+  .column h2 {
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style-type: disc;
+  }
+  
+  .link-button {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
